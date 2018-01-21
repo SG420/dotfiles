@@ -1,0 +1,67 @@
+!#if __has_include(.extend.Xresources)
+!#include .extend.Xresources
+!#endif
+
+! ^ The above lines are no comments!
+! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
+! config can be added there or also here below.
+! For comments use !
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background: #2b2b2b
+XTerm*foreground: #e7e7e7
+XTerm*pointerColor: #16A085
+XTerm*faceName: Fixed
+XTerm*faceSize: 11
+
+! special
+*.foreground:   #d3d3d3
+*.background:   #000000
+*.cursorColor:  #d3d3d3
+
+! black
+*.color0:       #191927
+*.color8:       #905749
+
+! red
+*.color1:       #282f5e
+*.color9:       #94431c
+
+! green
+*.color2:       #2b4593
+*.color10:      #9f582a
+
+! yellow
+*.color3:       #344276
+*.color11:      #a38687
+
+! blue
+*.color4:       #4e3a4f
+*.color12:      #e1750f
+
+! magenta
+*.color5:       #61372f
+*.color13:      #eaaf25
+
+! cyan
+*.color6:       #6b484c
+*.color14:      #fa8e08
+
+! white
+*.color7:       #744537
+*.color15:      #fca806
+
+URxvt.depth: 32
+URxvt.background: [80]#000000
+URxvt.scrollBar: false
+URxvt.scrollstyle: plain
+URxvt.scrollBar_right: false
+!URxvt.font: Misc Fixed 10
+!URxvt.boldFont: 7x13Bold
